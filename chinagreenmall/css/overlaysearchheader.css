@@ -1,0 +1,20 @@
+.mui-bar{
+	border-bottom: 1px solid transparent;
+	webkit-box-shadow: 0 0 1px rgba(255,255,255,0.0);
+	box-shadow: 0 0 1px rgba(255,255,255,0)
+}
+		
+.mui-bar-nav{
+	box-shadow: 0px,0px,0px,transparent;
+	webkit-box-shadow: 0 1px 6px #fff0;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	background-color: #fff;
+	border-right:1px,solid,#fff;
+	border-bottom: 1px solid #fff;
+}
+
+.mui-table-view:after{
+	background-color: #FFFFFF;
+}

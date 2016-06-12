@@ -1,0 +1,215 @@
+/* CSS Document */
+body{ margin:0; padding:0; font-family:"微软雅黑"; font-size:14px; background:#eee; }
+ul,li,img{ margin:0; padding:0; list-style:none; border:none;}
+a{ padding:0; margin:0; text-decoration:none;}
+p,h1,h2,h3,h4,h5,dl,dd,dt,input,span{ padding:0; margin:0;}
+
+/*默认线与背景*/
+.gray_line{ border-bottom:1px solid #dfdfdf;}/*下边线为灰色*/
+.white_bg { background:#fff}/*白色背景*/
+
+/*下边距*/
+.mag_bottom{ margin-bottom:20px; overflow:hidden;}/*下边距20px*/
+
+
+/*头部样式 */
+.heaer_w{ width:100%; height:auto; position:relative;}
+.banner img{ width:100%; height:auto;}
+
+/*顶部模块样式*/
+header{ width:100%; height:36px; display:-webkit-box; position:absolute; left:0px; top:0px; z-index:99; background: transparent;}
+header .logo{ width:98px; height:36px;  }
+header .logo p{ width:34px; height:34px; position:relative; left:25%; top:25%;  -webkit-transform:translate(-50%,-50%); }
+header .logo img{ width:100%; height:100%;}
+header .search{ -webkit-box-flex:1; padding-top: 5px;
+}
+header .search .search_w{ width:100%; 
+/*height:90%;*/ 
+/*border:1px solid #ff;*/ 
+background:#fff; border-radius:5px;-moz-border-radius:5px; 
+/* 老的 Firefox */ box-sizing:border-box; padding:0 5px; 
+position:relative; 
+}
+header .search .search_w input{ width:100%; 
+padding: 0;
+margin: 0;
+height:39px;
+ border:1px solid #fff;
+ background:url(../img/mainmall/search_03.png)  no-repeat left center;
+ background-size: 23px; 
+ background-attachment: scroll;
+ font-size: 1em;
+ /*padding-top: 15px;*/
+ line-height: 25px;
+ padding-left:30px;box-sizing:border-box;}
+header .class11{ width:45px; height:56px; }
+header .class11 dl{ width:56px; height:56px;  position:relative; left:50%; top:50%;  -webkit-transform:translate(-50%,-50%);}
+header .class11 dt{ text-align:center;}
+header .class11 dd{ color:#fff; font-size:20px; text-align:center; }
+
+/*字体*/
+.color2{ color:#222;}
+.color3{ color:#333;}
+.color4{ color:#444;}
+.color5{ color:#555;}
+.color6{ color:#666;}
+.color7{ color:#777;}
+.color8{ color:#888;}
+.color9{ color:#999;}
+
+/**
+ * 背景颜色
+ */
+.bg_green{ background-color:#2c9734;}
+
+/*导航模块样式*/
+.nav_warp{ width:100%; overflow:hidden; background:#fff;}
+.nav_mian{ overflow:hidden; /*padding-top:30px;*/}
+.nav_mian li{ float:left; width:25%; overflow:hidden; margin-bottom:20px;}
+.nav_img{ width:82px; height:82px; margin:0 auto; border-radius:10px;-moz-border-radius:10px; /* 老的 Firefox */ box-sizing:border-box; text-align:center; margin-bottom:10px;}
+.nav_img img{ display:block; /*padding-top:10px;*/ margin:0 auto;}
+.nav_mian li p{ text-align:center; font-size:20px; }
+.textinfo {text-align:center; font-size:20px;}
+.nav_bg1{ background:#fe5757;}
+.nav_bg2{ background:#18bffd;}
+.nav_bg3{ background:#ff7a02;}
+.nav_bg4{ background:#149006;}
+.nav_bg5{ background:#fead2d;}
+.nav_bg6{ background:#fe5757;}
+.nav_bg7{ background:#93b627;}
+.nav_bg8{ background:#5792fe;}
+
+
+.bext_list{ padding:6px 0; overflow:hidden;}
+.bext_list li{ float:left; width:33%; padding:20px;  /*border-right:1px solid #dfdfdf;*/ box-sizing:border-box;}
+.bext_list li dl{ width:100%;  box-sizing:border-box;  }
+.bext_list li dt{ width:100%; margin-bottom:10px;  box-sizing:border-box; overflow:hidden; }
+.bext_list li dt img{ width:100%; }
+.bext_list li dd{font-size:1.4em; color:#666;}
+.bext_list li  p { overflow:hidden; margin-bottom:10px;}
+.bext_list li  p span{font-size:1.4em; font-weight:bold; color:#ff3c3c;}
+.bext_list .nob_right{border-right:1px solid #fff;}
+
+
+/*广告*/
+.banner_w{ width:100%; box-sizing:border-box; }
+.banner_w img{ width:100%; height:auto;}
+
+/*楼层*/
+.foor_warp{ overflow:hidden;}
+.foor_classw{ width:100%; height:auto; overflow:hidden;}
+.foor_l{ float:left; width:50%; height:auto; padding:10px; box-sizing:border-box;}
+.foor_l img{ width:100%; height:100%;}
+.foor_r{ float:right; width:50%; }
+.foor_r ul{ width:100%; height:auto;}
+.foor_r li{ float:left; width:50%; height:0; padding-bottom:20%; border-bottom:1px solid #dfdfdf; border-left:1px solid #dfdfdf; box-sizing:border-box; overflow:hidden; text-align:center;}
+.foor_r li a{font-size:24px; color:#666; text-align:center; display:block; position:relative; top:-50%; -webkit-transform:translate(0%,50%); }
+
+.foor_list{ padding:0px 0; overflow:hidden;}
+.foor_list li{ float:left; width:33%; padding:20px;  box-sizing:border-box; }
+.foor_list li dl{ width:100%;  box-sizing:border-box;  }
+.foor_list li dt{ width:100%; margin-bottom:10px;  box-sizing:border-box; overflow:hidden; }
+.foor_list li dt img{ width:100%; }
+.foor_list li dd{font-size:1.4em; color:#666;}
+.foor_list li  p { overflow:hidden; margin-bottom:10px;}
+.foor_list li  p span{font-size:1.4em; font-weight:bold; color:#ff3c3c;}
+.foor_list .nob_right{border-right:1px solid #fff;}
+
+
+/*喜欢*/
+.like_title{ width:100%; height:85px; line-height:85px; overflow:hidden; }
+.like_title p{ background:url(../img/mainmall/like_09.png) no-repeat left center; padding-left:50px; box-sizing:border-box; position:relative; 
+left:35%; top:50%; -webkit-transform:translate(0%,-50%);
+ font-size:1.6em; }
+
+.like_list{ padding:0px 0; overflow:hidden;}
+.like_list li{ float:left; width:50%; padding:10px; margin-bottom:10px;   box-sizing:border-box; }
+.like_list li dl{ width:100%;  box-sizing:border-box; background:#fff;  }
+.like_list li dt{ width:100%; margin-bottom:10px; box-sizing:border-box; overflow:hidden; }
+.like_list li dt img{ width:100%; }
+.like_list li dd{font-size:1.4em; color:#666; padding:0 10px 20px 10px;  box-sizing:border-box; }
+.like_list li  p { overflow:hidden; margin-bottom:10px;}
+.like_list li  p span{ float:left; font-size:1.4em; font-weight:bold; color:#ff3c3c;}
+.like_list li  p font{ float:right; font-size:1em; line-height:2em; color:#999;}
+
+/*资讯模块样式*/
+.new_warp{ width:100%;  background:#fff; padding:10px 10px; box-sizing:border-box; overflow:hidden; }
+.new_cont{ background:url(../img/nwsbg_03.png) no-repeat left center;  padding-left:140px; height:80px; overflow:hidden; }
+.new_cont ul{ border-left:1px solid #ccc; padding-left:20px; }
+.new_cont ul li{ padding-left: 10px; 
+line-height: 40px;
+padding-top:-5px;background:url(../img/mainmall/news_point_03.png) no-repeat left center; /*font-size:24px;*/ height:40px; color:#444; overflow:hidden; }
+
+#container{  
+    position:relative;  
+    margin:0px;  
+    height:45px;  
+    width: 100%;
+}  
+.left_side{  
+    position:absolute;  
+    top:0px;  
+    left:0px;  
+    /*border:solid 1px #FF0000;*/  
+    width:56px;  
+    height:100%;  
+}  
+
+.left_side img{
+	width: 45px;
+	height: 45px;
+	padding: 5px;
+}
+
+.content{  
+    margin:0px 56px 0px 66px;  
+    /*border:solid 1px #0000FF;*/  
+    height:100%;  
+}  
+.right_side{  
+    position:absolute;  
+    top:0px;  
+    right:0px;  
+    /*border:solid 1px #FFFF00;*/  
+    width:34px;  
+    height:100%;  
+}  
+
+
+.left-title-px{ 
+	/*padding: 10px,10px,0px,0px;*/
+	width:10px; 
+	background:#149006; 
+	margin-left: 3px;
+	float: left;
+	}
+.mui-content-1-content{  
+	/*border: 1px,solid,;*/
+	background-color: #FFFFFF;
+	float: left;
+	width: 100%;
+	}
+	
+.lefttopdiv{
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 20px;
+}
+.leftleftinfo{
+	/*background-color: cadetblue;*/
+	width: 8px;
+	height: 30px;
+	position: absolute;
+	
+}
+
+.best_sellers{ overflow:hidden;}
+.best_setitle{ width:100%; height:40px; /*border-bottom:1px solid #dfdfdf;*/ line-height:40px; overflow:hidden;}
+.best_setitle span{ display:block; float:left; 
+margin-top: 10px;
+width:8px; height:30px; background:#149006; 
+position:relative; top:30%;-webkit-transform:translate(-50%,-50%); margin-right:20px;}
+.best_setitle p{ float:left; font-size:30px; font-weight:bold; color:#333; line-height:40px; }
+.best_setitle em{ display:block; float:right; margin-right:20px; font-style:normal; font-size:20px; color:#999; padding-right:20px; background:url(../img/mainmall/more_03.png) no-repeat right center;}
+
+

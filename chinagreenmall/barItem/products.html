@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" 	content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,	user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/overlaysearchheader.css"/>
+</head>
+<body>
+    
+    
+    <!--这里放置真实显示的DOM内容-->
+
+	       	<header class="mui-bar mui-bar-nav mui-title-header">
+	      
+	   			<div id="container">  
+	            <div id="left_side" class="left_side"><a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a></div>  
+	            <div id="content" class="content">
+	            	<div class="search">
+				      <div class="search_w">
+				          <input type="text" value="请输入搜索关键字"  />
+				      </div>
+				  	</div>
+	            </div>  
+	            <div id="right_side" class="right_side">
+	            	<a class="mui-icon iconfont icon-xiaoxi1 mui-active "></a>
+	            </div>  
+	        	</div>  
+	            
+	        </header>
+	        
+	       
+	        
+		       
+
+	        
+    <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	//启用双击监听
+		mui.init({
+			gestureConfig:{
+				doubletap:false
+			},
+			subpages:[{
+				url:'productsub.html',
+				id:'productsub.html',
+				styles:{
+					top: '45px',
+					bottom: '0px',
+				}
+			}]
+		});
+	
+		var contentWebview = null;
+		document.querySelector('header').addEventListener('doubletap',function () {
+			if(contentWebview==null){
+				contentWebview = plus.webview.currentWebview().children()[0];
+			}
+			contentWebview.evalJS("mui('#pullrefresh').pullRefresh().scrollTo(0,0,100)");
+		});
+    </script>
+</body>
+</html>
+
